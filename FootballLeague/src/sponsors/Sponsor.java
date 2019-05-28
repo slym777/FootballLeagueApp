@@ -1,6 +1,6 @@
 package sponsors;
 
-import makeDate.MakeDate;
+import util.MakeDate;
 
 import java.time.LocalDate;
 import java.util.Scanner;

@@ -1,4 +1,4 @@
-package makeDate;
+package util;
 
 import java.time.LocalDate;
 import java.util.Scanner;

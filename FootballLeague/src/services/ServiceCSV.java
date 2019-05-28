@@ -55,7 +55,8 @@ public class ServiceCSV {
 
         List<List<String>> data = Arrays.asList(
                 Arrays.asList("Cristiano", "Ronaldo", "05-02-1985", "1.84", "87", "Juventus Torino", "7", "Forward", "Right"),
-                Arrays.asList("Lionel", "Messi", "24-06-19857", "1.7", "78", "Real Madrid", "10", "Forward", "Right")
+                Arrays.asList("Lionel", "Messi", "24-06-1987", "1.7", "78", "Real Madrid", "10", "Forward", "Right")
+//                Arrays.asList("Paulo", "Dibala", "13-02-1993"), "1,74
         );
 
         WriteToCSV("C:\\Users\\sl1m\\Desktop\\PAO\\Laboratoare\\PAO_Project\\src\\filesCSV\\PlayersCSV.csv", data, header);
@@ -106,7 +107,7 @@ public class ServiceCSV {
 
         List<List<String>> data = Arrays.asList(
                 Arrays.asList("Zinedine", "Zidane", "05-02-1985", "1.84", "87", "Real Madrid"),
-                Arrays.asList("Masimiliano", "Alegri", "24-06-19857", "1.7", "78", "Juventus Torino")
+                Arrays.asList("Masimiliano", "Alegri", "24-06-1957", "1.7", "78", "Juventus Torino")
         );
 
         WriteToCSV("C:\\Users\\sl1m\\Desktop\\PAO\\Laboratoare\\PAO_Project\\src\\filesCSV\\ManagersCSV.csv", data, header);
@@ -118,7 +119,7 @@ public class ServiceCSV {
 
         List<List<String>> data = Arrays.asList(
                 Arrays.asList("Howard", "Webb", "05-02-1985", "1.84", "87", "International Fifa"),
-                Arrays.asList("Martin", "Atkinson", "24-06-19857", "1.7", "78", "Premier League")
+                Arrays.asList("Martin", "Atkinson", "24-06-1957", "1.7", "78", "Premier League")
         );
 
         WriteToCSV("C:\\Users\\sl1m\\Desktop\\PAO\\Laboratoare\\PAO_Project\\src\\filesCSV\\RefereesCSV.csv", data, header);

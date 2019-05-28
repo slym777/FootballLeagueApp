@@ -1,6 +1,6 @@
 package model;
 
-import makeDate.MakeDate;
+import util.MakeDate;
 import sponsors.Sponsor;
 import sportComplexes.Stadium;
 import persons.Manager;

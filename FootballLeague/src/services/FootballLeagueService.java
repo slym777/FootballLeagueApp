@@ -35,14 +35,8 @@ public class FootballLeagueService implements LeaguePrototypeService{
 
                 String homeTeamName = info.get(1);
                 String guestTeamName = info.get(2);
-                FootballClub homeTeam = null;
-                FootballClub guestTeam = null;
-                for (FootballClub footballClub : FootballClubService.getListOfFootballClubs()) {
-                    if (footballClub.getName().equals(homeTeamName))
-                        homeTeam = footballClub;
-                    if (footballClub.getName().equals(guestTeamName))
-                        guestTeam = footballClub;
-                }
+                FootballClub homeTeam = FootballClubService.getFootballClubByName(homeTeamName);
+                FootballClub guestTeam = FootballClubService.getFootballClubByName(guestTeamName);
 
                 int homeTeamScore = Integer.parseInt(info.get(3));
                 int guestTeamScore = Integer.parseInt(info.get(4));
@@ -50,11 +44,7 @@ public class FootballLeagueService implements LeaguePrototypeService{
                 List<String> dateInfo = Arrays.asList(info.get(5).split("-"));
 
                 String refereeName = info.get(6);
-                Referee referee = null;
-                for(Referee it_referee: PersonsService.getListOfReferees()){
-                    if(it_referee.getLastName().equals(refereeName))
-                        referee = it_referee;
-                }
+                Referee referee = PersonsService.getRefereeByName(refereeName);
                 Match match = new Match(stage, homeTeam, guestTeam, homeTeamScore, guestTeamScore, LocalDate.of(Integer.parseInt(dateInfo.get(2)), Integer.parseInt(dateInfo.get(1)), Integer.parseInt(dateInfo.get(0))), referee);
                 listOfMatches.add(match);
             }
@@ -83,6 +73,12 @@ public class FootballLeagueService implements LeaguePrototypeService{
         return listOfMatches;
     }
 
+    public static Map<Integer,List<Match>> getStages() {return stages;}
+
+    public static FootbalLeague getFootballLeague() {
+        return PremierLeague;
+    }
+
 
         @Override
     public String getLeagueLeader(){
@@ -94,7 +90,7 @@ public class FootballLeagueService implements LeaguePrototypeService{
     public void displayLeagueTeable() {
         Collections.sort(PremierLeague.getClubs(), new FootballClubComparator());
         for (int i = 0 ; i < PremierLeague.getClubs().size(); i++){
-            System.out.println(i+1 + "." + PremierLeague.getClubs().get(i).getName() + ": " + PremierLeague.getClubs().get(i).getNrPoints() + "; +/-: " + PremierLeague.getClubs().get(i).goalDifference());
+            System.out.println(i+1 + "." + PremierLeague.getClubs().get(i).getName() + ": " + PremierLeague.getClubs().get(i).getNrPoints() + "; Goal Diff: " + PremierLeague.getClubs().get(i).goalDifference());
         }
     }
 

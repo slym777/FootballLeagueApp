@@ -49,7 +49,7 @@ public class StadiumService {
         return listOfStadiums;
     }
 
-    public Stadium getStadiumByName(String name){
+    public static Stadium getStadiumByName(String name){
         for (Stadium stadium: listOfStadiums){
             if(stadium.getName().equals(name))
                 return stadium;

@@ -31,19 +31,14 @@ public class FootballClubService {
 
                 Stadium stadium = null;
                 String stadiumName = info.get(1);
-                for (Stadium it_stadium: StadiumService.getListOfStadiums()) {
-                    if (it_stadium.getName().equals(stadiumName)) {
-                        stadium = it_stadium;
-                        break;
-                    }
-                }
+                stadium = StadiumService.getStadiumByName(stadiumName);
 
                 List<String> dateInfo = Arrays.asList(info.get(2).split("-"));
 
                 Manager manager = null;
                 String managerName = info.get(3);
-                for (Manager it_manager: PersonsService.getListOfManagers()){
-                    if(it_manager.getLastName().equals(managerName)){
+                for (Manager it_manager : PersonsService.getListOfManagers()) {
+                    if (it_manager.getLastName().equals(managerName)) {
                         manager = it_manager;
                         break;
                     }
@@ -51,12 +46,7 @@ public class FootballClubService {
 
                 Sponsor sponsor = null;
                 String sponsorName = info.get(4);
-                for (Sponsor it_sponsor: SponsorsService.getListOfSponsors()){
-                    if(it_sponsor.getName().equals(sponsorName)){
-                        sponsor = it_sponsor;
-                        break;
-                    }
-                }
+                sponsor = SponsorsService.getSponsorByName(sponsorName);
 
                 String League = info.get(5);
 //                int nrWins = Integer.parseInt(info.get(6));
@@ -67,9 +57,10 @@ public class FootballClubService {
 //                int nrPoints = Integer.parseInt(info.get(11));
 //                int nrMatches = Integer.parseInt(info.get(12));
 
-                List<Player> players = new ArrayList<>();;
-                for (Player player: PersonsService.getListOfPlayers()){
-                    if(player.getFootballClub().equals(name)){
+                List<Player> players = new ArrayList<>();
+                ;
+                for (Player player : PersonsService.getListOfPlayers()) {
+                    if (player.getFootballClub().equals(name)) {
                         players.add(player);
                     }
                 }
@@ -77,7 +68,8 @@ public class FootballClubService {
                 FootballClub footballClub = new FootballClub(name, stadium, LocalDate.of(Integer.parseInt(dateInfo.get(2)), Integer.parseInt(dateInfo.get(1)), Integer.parseInt(dateInfo.get(0))), manager, players, sponsor, League); //nrWins, nrDraws, nrLoses, nrScored, nrReceived, nrPoints, nrMatches);
                 listOfFootballClubs.add(footballClub);
             }
-        } catch (IOException exception) {
+        }
+        catch (IOException exception) {
             System.out.println(exception.getMessage() + "\n" + exception.getCause() + "\n");
         }
     }

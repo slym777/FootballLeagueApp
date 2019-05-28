@@ -29,7 +29,7 @@ public class PersonsService {
     static {
         try {
             List<List<String>> data;
-            data = ServiceCSV.getInstance().ReadFromCSV("PlayersCSV.csv");
+            data = ServiceCSV.getInstance().ReadFromCSV("C:\\Users\\sl1m\\Desktop\\PAO\\Laboratoare\\PAO_Project\\src\\filesCSV\\PlayersCSV.csv");
             data.remove(0);
 
             for (List<String> info : data) {
@@ -72,7 +72,7 @@ public class PersonsService {
 
         try {
             List<List<String>> data;
-            data = ServiceCSV.getInstance().ReadFromCSV("RefereesCSV.csv");
+            data = ServiceCSV.getInstance().ReadFromCSV("C:\\Users\\sl1m\\Desktop\\PAO\\Laboratoare\\PAO_Project\\src\\filesCSV\\RefereesCSV.csv");
             data.remove(0);
 
             for (List<String> info : data) {
