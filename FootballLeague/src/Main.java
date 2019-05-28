@@ -128,5 +128,13 @@ public class Main {
 //        stadiumDB.selectAllStadiums().stream().map(p->p.getName()).forEach(System.out::println);
 //        if(stadiumDB.selectByName("Santiago Bernabeu") != null)
 //            System.out.println(stadiumDB.selectByName("Santiago Bernabeu").getHomeTeam());
+
+//        FootballClubDatabase footballClubDB = new FootballClubDatabase();
+//        footballClubDB.createFootballClubTable();
+//        footballClubDB.insertAllFootballClubs(FootballClubService.getListOfFootballClubs());
+//        footballClubDB.selectAllFootballClubs().stream().map(p->p.getName()).forEach(System.out::println);
+//        if(footballClubDB.selectByClubName("Real Madrid") != null)
+//            System.out.println(footballClubDB.selectByClubName("Real Madrid").getName());
+
     }
 }

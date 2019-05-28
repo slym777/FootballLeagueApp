@@ -2,36 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7f7ccfbd-16d5-484e-90c3-36bbb8798080" name="Default Changelist" comment="added some classes for jdbc">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_8_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/database/FootballClubDatabase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/database/ManagerDatabase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/database/PlayerDatabase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/util/ConnectionUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PAO_Project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/PAO_Project.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PAO_Project/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PAO_Project/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PAO_Project/makeDate/MakeDate.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PAO_Project/model/SportsClub.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PAO_Project/model/SportsClub.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PAO_Project/persons/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PAO_Project/persons/Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PAO_Project/services/FootballClubService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PAO_Project/services/FootballClubService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PAO_Project/services/FootballLeagueService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PAO_Project/services/FootballLeagueService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PAO_Project/services/PersonsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PAO_Project/services/PersonsService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PAO_Project/services/ServiceCSV.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PAO_Project/services/ServiceCSV.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PAO_Project/services/StadiumService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PAO_Project/services/StadiumService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PAO_Project/sponsors/Sponsor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PAO_Project/sponsors/Sponsor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PAO_Project/sportComplexes/Stadium.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PAO_Project/sportComplexes/Stadium.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/filesCSV/PlayersCSV.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/filesCSV/PlayersCSV.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/makeDate/MakeDate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/MakeDate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/SportsClub.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/SportsClub.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/persons/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/persons/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/FootballClubService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/FootballClubService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/FootballLeagueService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/FootballLeagueService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/PersonsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/PersonsService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/ServiceCSV.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/ServiceCSV.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/StadiumService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/StadiumService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sponsors/Sponsor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sponsors/Sponsor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sportComplexes/Stadium.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sportComplexes/Stadium.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/database/FootballClubDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/database/FootballClubDatabase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/FootballClub.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/FootballClub.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -44,7 +17,129 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/database/FootballClubDatabase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="20">
+              <caret line="36" column="33" lean-forward="true" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/database/PlayerDatabase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3200">
+              <caret line="166" column="55" selection-start-line="166" selection-start-column="55" selection-end-line="166" selection-end-column="55" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="131" selection-start-line="131" selection-start-column="2" selection-end-line="136" selection-end-column="91" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/services/FootballLeagueService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="940">
+              <caret line="49" column="13" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/services/FootballClubService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="140">
+              <caret line="45" selection-start-line="45" selection-end-line="45" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/database/RefereeDatabase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-225">
+              <caret line="225" column="11" lean-forward="true" selection-start-line="225" selection-start-column="11" selection-end-line="225" selection-end-column="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/filesCSV/FootballClubsCSV.csv">
+          <provider selected="true" editor-type-id="csv-text-editor">
+            <state>
+              <caret column="43" selection-start-column="43" selection-end-column="43" />
+            </state>
+          </provider>
+          <provider editor-type-id="csv-table-editor">
+            <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/services/LoggerCSV.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="460">
+              <caret line="26" column="123" selection-start-line="26" selection-start-column="123" selection-end-line="26" selection-end-column="123" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/model/FootbalLeague.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="14" lean-forward="true" selection-start-column="14" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/model/FootballClub.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1421">
+              <caret line="102" selection-start-line="102" selection-end-line="102" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2738#2739#0" expanded="true" />
+                <element signature="e#2767#2768#0" expanded="true" />
+                <element signature="e#2811#2812#0" expanded="true" />
+                <element signature="e#2842#2843#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -89,7 +184,6 @@
         <option value="$PROJECT_DIR$/src/model/SportsClub.java" />
         <option value="$PROJECT_DIR$/src/services/LeaguePrototypeService.java" />
         <option value="$PROJECT_DIR$/FootballClubsCSV.csv" />
-        <option value="$PROJECT_DIR$/src/model/FootballClub.java" />
         <option value="$PROJECT_DIR$/src/model/Match.java" />
         <option value="$PROJECT_DIR$/src/services/SponsorsService.java" />
         <option value="$PROJECT_DIR$/src/services/LoggerCSV.java" />
@@ -99,17 +193,18 @@
         <option value="$PROJECT_DIR$/src/services/FootballLeagueService.java" />
         <option value="$PROJECT_DIR$/src/util/ConnectionUtils.java" />
         <option value="$PROJECT_DIR$/src/database/SportClubDatabase.java" />
-        <option value="$PROJECT_DIR$/src/database/FootballClubDatabase.java" />
         <option value="$PROJECT_DIR$/src/persons/Person.java" />
         <option value="$PROJECT_DIR$/src/filesCSV/PlayersCSV.csv" />
         <option value="$PROJECT_DIR$/src/database/PersonDatabase.java" />
-        <option value="$PROJECT_DIR$/src/database/PlayerDatabase.java" />
         <option value="$PROJECT_DIR$/src/database/ManagerDatabase.java" />
         <option value="$PROJECT_DIR$/src/util/MakeDate.java" />
         <option value="$PROJECT_DIR$/src/database/RefereeDatabase.java" />
-        <option value="$PROJECT_DIR$/src/services/ServiceCSV.java" />
         <option value="$PROJECT_DIR$/src/database/SponsorDatabase.java" />
         <option value="$PROJECT_DIR$/src/database/StadiumDatabase.java" />
+        <option value="$PROJECT_DIR$/src/services/ServiceCSV.java" />
+        <option value="$PROJECT_DIR$/src/model/FootballClub.java" />
+        <option value="$PROJECT_DIR$/src/database/PlayerDatabase.java" />
+        <option value="$PROJECT_DIR$/src/database/FootballClubDatabase.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
       </list>
     </option>
@@ -125,7 +220,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -154,6 +248,12 @@
               <item name="FootballLeague" type="b2602c69:ProjectViewProjectNode" />
               <item name="FootballLeague" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FootballLeague" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FootballLeague" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="persons" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -176,6 +276,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -276,11 +377,12 @@
       <workItem from="1558974029796" duration="217000" />
       <workItem from="1559040226766" duration="19039000" />
       <workItem from="1559067127594" duration="5281000" />
+      <workItem from="1559073328622" duration="7513000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="146272000" />
+    <option name="totallyTimeSpent" value="153785000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -294,7 +396,39 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1380597" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13965885" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.32827735" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49946696" weight="0.4182015" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50053304" side_tool="true" visible="true" weight="0.4182015" />
+      <window_info anchor="bottom" id="TODO" order="12" weight="0.3261105" />
+      <window_info anchor="bottom" id="Duplicate detector" order="13" weight="0.32936078" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13965885" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -324,38 +458,6 @@
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Database" order="8" />
-    </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13646056" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="0" weight="0.32932165" />
-      <window_info anchor="bottom" id="Message" order="1" />
-      <window_info anchor="bottom" id="Find" order="2" weight="0.32936078" />
-      <window_info anchor="bottom" id="Run" order="3" visible="true" weight="0.4182015" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="TODO" order="12" weight="0.3261105" />
-      <window_info anchor="bottom" id="Duplicate detector" order="13" weight="0.32936078" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info anchor="right" id="Maven" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Database" order="8" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -366,7 +468,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="added some classes for jdbc" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/StadiumsCSV.csv" />
     <entry file="file://$PROJECT_DIR$/RefereesCSV.csv" />
     <entry file="file://$PROJECT_DIR$/PlayersCSV.csv" />
     <entry file="file://$PROJECT_DIR$/MatchesCSV.csv" />
@@ -380,31 +481,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/SportsClub.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1139">
-          <caret line="91" lean-forward="true" selection-start-line="91" selection-end-line="91" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk-12/lib/src.zip!/java.base/java/lang/NumberFormatException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="67" selection-start-line="67" selection-end-line="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/filesCSV/FootballClubsCSV.csv">
-      <provider editor-type-id="text-editor" />
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state>
-          <caret column="58" lean-forward="true" selection-start-column="58" selection-end-column="58" />
         </state>
       </provider>
     </entry>
@@ -415,20 +495,6 @@
           <caret line="91" column="151" selection-start-line="91" selection-start-column="151" selection-end-line="91" selection-end-column="151" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/FootballClub.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-153">
-          <caret line="35" column="29" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2803#2804#0" expanded="true" />
-            <element signature="e#2852#2853#0" expanded="true" />
-            <element signature="e#2870#2871#0" expanded="true" />
-            <element signature="e#2934#2935#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -468,21 +534,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/FootbalLeague.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3791">
-          <caret line="235" column="7" lean-forward="true" selection-start-line="235" selection-start-column="7" selection-end-line="235" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/filesCSV/logger.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
       <provider selected="true" editor-type-id="csv-text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="75" selection-start-line="1" selection-start-column="75" selection-end-line="1" selection-end-column="75" />
         </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/services/SponsorsService.java">
@@ -517,16 +576,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/database/FootballlClubDatabase.java" />
     <entry file="file://$PROJECT_DIR$/src/database/SportClubDatabase.java" />
-    <entry file="file://$PROJECT_DIR$/src/services/FootballClubService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="45" selection-start-line="45" selection-end-line="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/services/PersonsService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -535,23 +584,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/filesCSV/PlayersCSV.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
       <provider selected="true" editor-type-id="csv-text-editor">
         <state relative-caret-position="60">
           <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/services/LoggerCSV.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="26" column="123" selection-start-line="26" selection-start-column="123" selection-end-line="26" selection-end-column="123" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/persons/Person.java">
@@ -586,10 +625,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/filesCSV/ManagersCSV.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
-      <provider selected="true" editor-type-id="csv-text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/persons/Manager.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -618,26 +657,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/database/PlayerDatabase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3000">
-          <caret line="158" selection-start-line="158" selection-end-line="158" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/database/FootballClubDatabase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/persons/Referee.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="309">
@@ -649,10 +668,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/filesCSV/SponsorsCSV.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
-      <provider selected="true" editor-type-id="csv-text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/database/ManagerDatabase.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -671,56 +690,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="132" lean-forward="true" selection-start-line="132" selection-end-line="132" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/filesCSV/RefereesCSV.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/services/ServiceCSV.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1529">
-          <caret line="121" column="61" selection-start-line="121" selection-start-column="61" selection-end-line="121" selection-end-column="61" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/services/FootballLeagueService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="49" column="13" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sportComplexes/Stadium.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/database/RefereeDatabase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="960">
-          <caret line="48" column="17" lean-forward="true" selection-start-line="48" selection-start-column="17" selection-end-line="48" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -741,6 +720,135 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2280">
           <caret line="114" column="33" lean-forward="true" selection-start-line="114" selection-start-column="33" selection-end-line="114" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/database/RefereeDatabase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-225">
+          <caret line="225" column="11" lean-forward="true" selection-start-line="225" selection-start-column="11" selection-end-line="225" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/filesCSV/FootballClubsCSV.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state>
+          <caret column="43" selection-start-column="43" selection-end-column="43" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/services/ServiceCSV.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="395">
+          <caret line="65" column="66" selection-start-line="65" selection-start-column="66" selection-end-line="65" selection-end-column="66" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/SportsClub.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1198">
+          <caret line="91" lean-forward="true" selection-start-line="91" selection-end-line="91" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/services/LoggerCSV.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="26" column="123" selection-start-line="26" selection-start-column="123" selection-end-line="26" selection-end-column="123" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/FootbalLeague.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="14" lean-forward="true" selection-start-column="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/services/FootballLeagueService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="940">
+          <caret line="49" column="13" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/services/FootballClubService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/FootballClub.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1421">
+          <caret line="102" selection-start-line="102" selection-end-line="102" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2738#2739#0" expanded="true" />
+            <element signature="e#2767#2768#0" expanded="true" />
+            <element signature="e#2811#2812#0" expanded="true" />
+            <element signature="e#2842#2843#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-12/lib/src.zip!/java.base/java/util/function/Predicate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="48" column="12" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/database/PlayerDatabase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3200">
+          <caret line="166" column="55" selection-start-line="166" selection-start-column="55" selection-end-line="166" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/database/FootballClubDatabase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="36" column="33" lean-forward="true" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="131" selection-start-line="131" selection-start-column="2" selection-end-line="136" selection-end-column="91" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

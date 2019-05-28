@@ -101,6 +101,14 @@ public class FootballClub extends SportsClub {
         return this.nrScoredGoals - this.nrRecievedGoals;
     }
 
+    public String getLeague() {
+        return League;
+    }
+
+    public void setLeague(String league) {
+        League = league;
+    }
+
     public void calculate_nrPoints(){
         this.nrPoints = 3*nrWins + nrDraws;
     }
