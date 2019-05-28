@@ -1,2 +1,2 @@
 # FootballLeagueApp
-App which can manage an football league
+App which can manage a football league
