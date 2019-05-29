@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7f7ccfbd-16d5-484e-90c3-36bbb8798080" name="Default Changelist" comment="added some classes for jdbc">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/database/FootballClubDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/database/FootballClubDatabase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/FootballClub.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/FootballClub.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,36 +16,12 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/database/FootballClubDatabase.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="20">
-              <caret line="36" column="33" lean-forward="true" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/database/PlayerDatabase.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3200">
-              <caret line="166" column="55" selection-start-line="166" selection-start-column="55" selection-end-line="166" selection-end-column="55" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="131" selection-start-line="131" selection-start-column="2" selection-end-line="136" selection-end-column="91" />
+            <state relative-caret-position="309">
+              <caret line="138" column="3" selection-start-line="138" selection-start-column="3" selection-end-line="138" selection-end-column="3" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -55,46 +30,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/services/FootballLeagueService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="940">
-              <caret line="49" column="13" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/services/FootballClubService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="45" selection-start-line="45" selection-end-line="45" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/database/RefereeDatabase.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-225">
-              <caret line="225" column="11" lean-forward="true" selection-start-line="225" selection-start-column="11" selection-end-line="225" selection-end-column="11" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/filesCSV/FootballClubsCSV.csv">
+        <entry file="file://$PROJECT_DIR$/src/filesCSV/MatchesCSV.csv">
           <provider selected="true" editor-type-id="csv-text-editor">
-            <state>
-              <caret column="43" selection-start-column="43" selection-end-column="43" />
+            <state relative-caret-position="60">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
           <provider editor-type-id="csv-table-editor">
@@ -103,37 +42,12 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/services/LoggerCSV.java">
+        <entry file="file://$PROJECT_DIR$/src/database/FootballMatchDatabase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="26" column="123" selection-start-line="26" selection-start-column="123" selection-end-line="26" selection-end-column="123" />
+            <state relative-caret-position="143">
+              <caret line="280" column="118" selection-start-line="280" selection-start-column="118" selection-end-line="280" selection-end-column="118" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/model/FootbalLeague.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="14" lean-forward="true" selection-start-column="14" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/model/FootballClub.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1421">
-              <caret line="102" selection-start-line="102" selection-end-line="102" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2738#2739#0" expanded="true" />
-                <element signature="e#2767#2768#0" expanded="true" />
-                <element signature="e#2811#2812#0" expanded="true" />
-                <element signature="e#2842#2843#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -155,8 +69,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/LeaguePrototype.java" />
-        <option value="$PROJECT_DIR$/src/Stage.java" />
         <option value="$PROJECT_DIR$/src/League.java" />
         <option value="$PROJECT_DIR$/src/Match.java" />
         <option value="$PROJECT_DIR$/src/services/LeaguePrototype.java" />
@@ -205,11 +117,13 @@
         <option value="$PROJECT_DIR$/src/model/FootballClub.java" />
         <option value="$PROJECT_DIR$/src/database/PlayerDatabase.java" />
         <option value="$PROJECT_DIR$/src/database/FootballClubDatabase.java" />
+        <option value="$PROJECT_DIR$/src/database/MatchDatabase.java" />
+        <option value="$PROJECT_DIR$/src/database/FootballMatchDatabase.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="953" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
@@ -276,8 +190,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -378,11 +292,12 @@
       <workItem from="1559040226766" duration="19039000" />
       <workItem from="1559067127594" duration="5281000" />
       <workItem from="1559073328622" duration="7513000" />
+      <workItem from="1559123891556" duration="3919000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="153785000" />
+    <option name="totallyTimeSpent" value="157704000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -395,8 +310,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13965885" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.141258" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -406,7 +322,7 @@
       <window_info anchor="bottom" id="Messages" order="0" weight="0.32827735" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.32936078" />
-      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49946696" weight="0.4182015" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" sideWeight="0.4989339" visible="true" weight="0.4182015" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -414,7 +330,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50053304" side_tool="true" visible="true" weight="0.4182015" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5010661" side_tool="true" visible="true" weight="0.4182015" />
       <window_info anchor="bottom" id="TODO" order="12" weight="0.3261105" />
       <window_info anchor="bottom" id="Duplicate detector" order="13" weight="0.32936078" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -468,8 +384,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="added some classes for jdbc" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/RefereesCSV.csv" />
-    <entry file="file://$PROJECT_DIR$/PlayersCSV.csv" />
     <entry file="file://$PROJECT_DIR$/MatchesCSV.csv" />
     <entry file="file://$PROJECT_DIR$/src/model/Stage.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -489,16 +403,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/logger.csv" />
-    <entry file="file://$PROJECT_DIR$/src/model/Match.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="91" column="151" selection-start-line="91" selection-start-column="151" selection-end-line="91" selection-end-column="151" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/encodings.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -726,27 +630,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/database/RefereeDatabase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-225">
-          <caret line="225" column="11" lean-forward="true" selection-start-line="225" selection-start-column="11" selection-end-line="225" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/filesCSV/FootballClubsCSV.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state>
-          <caret column="43" selection-start-column="43" selection-end-column="43" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/services/ServiceCSV.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="395">
@@ -767,6 +650,53 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-12/lib/src.zip!/java.base/java/util/function/Predicate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="48" column="12" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/database/PlayerDatabase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3160">
+          <caret line="166" column="55" selection-start-line="166" selection-start-column="55" selection-end-line="166" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/services/FootballLeagueService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="49" column="13" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/services/FootballClubService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="700">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/database/RefereeDatabase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4340">
+          <caret line="225" column="11" selection-start-line="225" selection-start-column="11" selection-end-line="225" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/services/LoggerCSV.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="460">
@@ -777,68 +707,68 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/FootbalLeague.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="14" lean-forward="true" selection-start-column="14" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/services/FootballLeagueService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="940">
-          <caret line="49" column="13" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/services/FootballClubService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="45" selection-start-line="45" selection-end-line="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/model/FootballClub.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1421">
+        <state relative-caret-position="1320">
           <caret line="102" selection-start-line="102" selection-end-line="102" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2738#2739#0" expanded="true" />
-            <element signature="e#2767#2768#0" expanded="true" />
-            <element signature="e#2811#2812#0" expanded="true" />
-            <element signature="e#2842#2843#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-12/lib/src.zip!/java.base/java/util/function/Predicate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="48" column="12" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="12" />
+    <entry file="file://$PROJECT_DIR$/src/filesCSV/FootballClubsCSV.csv">
+      <provider editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state>
+          <caret column="43" selection-start-column="43" selection-end-column="43" />
         </state>
       </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/database/PlayerDatabase.java">
+    <entry file="file://$PROJECT_DIR$/src/model/FootbalLeague.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3200">
-          <caret line="166" column="55" selection-start-line="166" selection-start-column="55" selection-end-line="166" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state>
+          <caret column="14" selection-start-column="14" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/database/FootballClubDatabase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="36" column="33" lean-forward="true" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
+        <state relative-caret-position="409">
+          <caret line="303" column="5" lean-forward="true" selection-start-line="23" selection-start-column="4" selection-end-line="303" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/Match.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="91" column="151" selection-start-line="91" selection-start-column="151" selection-end-line="91" selection-end-column="151" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/filesCSV/MatchesCSV.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/database/FootballMatchDatabase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="280" column="118" selection-start-line="280" selection-start-column="118" selection-end-line="280" selection-end-column="118" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -847,8 +777,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="131" selection-start-line="131" selection-start-column="2" selection-end-line="136" selection-end-column="91" />
+        <state relative-caret-position="309">
+          <caret line="138" column="3" selection-start-line="138" selection-start-column="3" selection-end-line="138" selection-end-column="3" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
