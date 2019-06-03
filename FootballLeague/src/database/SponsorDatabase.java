@@ -90,7 +90,7 @@ public class SponsorDatabase {
             insertSponsor(sponsor);
     }
 
-    public List<Sponsor> selectAllSponsors(){
+    public static List<Sponsor> selectAllSponsors(){
         Connection connection = null;
         PreparedStatement statement = null;
         List<Sponsor> sponsors = new ArrayList<>();

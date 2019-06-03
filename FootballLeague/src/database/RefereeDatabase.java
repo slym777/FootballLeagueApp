@@ -50,7 +50,7 @@ public class RefereeDatabase {
             }
         }
     }
-    public void insertReferee(Referee referee){
+    public static void insertReferee(Referee referee){
         Connection connection = null;
         PreparedStatement statement = null;
         String request = "insert into referee(first_name, last_name, birth_date, height, weight, category)"
@@ -99,7 +99,7 @@ public class RefereeDatabase {
         System.out.println("Executed Insert All Referees");
     }
 
-    public List<Referee> selectAllReferees(){
+    public static List<Referee> selectAllReferees(){
         Connection connection = null;
         PreparedStatement statement = null;
         List<Referee> referees= new ArrayList<>();
@@ -191,7 +191,7 @@ public class RefereeDatabase {
         }
     }
 
-    public void deleteReferee(String lastName){
+    public static void deleteReferee(String lastName){
         Connection connection = null;
         PreparedStatement statement = null;
 

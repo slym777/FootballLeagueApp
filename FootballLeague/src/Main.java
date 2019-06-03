@@ -41,15 +41,15 @@ public class Main {
 
             logger.info("Create all CSV Files");
 //            #### Create CSV Files ###
-            ServiceCSV servicecsv = ServiceCSV.getInstance();
-            servicecsv.createFootballCLubCSV();
-            servicecsv.createPlayersCSV();
-            servicecsv.createSponsorsCSV();
-            servicecsv.createStadiumsCSV();
-            servicecsv.createManagersCSV();
-            servicecsv.createRefereesCSV();
-            servicecsv.createMatchesCSV();
-//
+//            ServiceCSV servicecsv = ServiceCSV.getInstance();
+//            servicecsv.createFootballCLubCSV();
+//            servicecsv.createPlayersCSV();
+//            servicecsv.createSponsorsCSV();
+//            servicecsv.createStadiumsCSV();
+//            servicecsv.createManagersCSV();
+//            servicecsv.createRefereesCSV();
+//            servicecsv.createMatchesCSV();
+////
 ////             ########################
 
             logger.info("Activating services");
@@ -58,6 +58,7 @@ public class Main {
             PersonsService PersonS = PersonsService.getInstance();
             SponsorsService SponsorS = SponsorsService.getInstance();
             StadiumService StadiumS = StadiumService.getInstance();
+
 
             logger.info("Printing all clubs available in app");
             System.out.println("Available clubs in Premiere League:");
@@ -95,46 +96,47 @@ public class Main {
 
 //        PlayerDatabase playerDB = new PlayerDatabase();
 //        playerDB.createPlayerTable();
-//        playerDB.deletePlayer("Ronaldo");
-//        playerDB.deletePlayer("Messi");
 //        playerDB.insertAllPlayers(PersonsService.getListOfPlayers());
-//        playerDB.selectAllPlayers().stream().map(p->p.getFirstName() + " " + p.getLastName()).forEach(p->System.out.println(p));
-//        System.out.println(playerDB.selectByLastName("Ronaldo").getFootballClub());
-//
+////        playerDB.selectAllPlayers().stream().map(p->p.getFirstName() + " " + p.getLastName()).forEach(p->System.out.println(p));
+////        System.out.println(playerDB.selectByLastName("Ronaldo").getFootballClub());
+////
 //        ManagerDatabase managerDB = new ManagerDatabase();
 //        managerDB.createManagerTable();
 //        managerDB.insertAllManagers(PersonsService.getListOfManagers());
-//        managerDB.selectAllManagers().stream().map(p->p.getFirstName() + " " + p.getLastName()).forEach(p->System.out.println(p));
-//        System.out.println(managerDB.selectByLastName("Zidane").getFootballClub());
-//
+////        managerDB.selectAllManagers().stream().map(p->p.getFirstName() + " " + p.getLastName()).forEach(p->System.out.println(p));
+////        System.out.println(managerDB.selectByLastName("Zidane").getFootballClub());
+////
 //        RefereeDatabase refereeDB = new RefereeDatabase();
 //        refereeDB.createRefereeTable();
 //        refereeDB.insertAllReferees(PersonsService.getListOfReferees());
-//        refereeDB.selectAllReferees().stream().map(p->p.getFirstName() + " " + p.getLastName()).forEach(System.out::println);
-//        if(refereeDB.selectByLastName("Webb") != null) {
-//            System.out.println(refereeDB.selectByLastName("Webb").getLastName());
-//        }
-//
+////        refereeDB.selectAllReferees().stream().map(p->p.getFirstName() + " " + p.getLastName()).forEach(System.out::println);
+////        if(refereeDB.selectByLastName("Webb") != null) {
+////            System.out.println(refereeDB.selectByLastName("Webb").getLastName());
+////        }
+////
 //        SponsorDatabase sponsorDB = new SponsorDatabase();
 //        sponsorDB.createSponsorTable();
 //        sponsorDB.insertAllSponsors(SponsorsService.getListOfSponsors());
-//        sponsorDB.selectAllSponsors().stream().map(p->p.getName() + " " + p.getEstablished()).forEach(System.out::println);
-//        if(sponsorDB.selectByName("Nike") != null)
-//            System.out.println(sponsorDB.selectByName("Nike").getName());
-//
+////        sponsorDB.selectAllSponsors().stream().map(p->p.getName() + " " + p.getEstablished()).forEach(System.out::println);
+////        if(sponsorDB.selectByName("Nike") != null)
+////            System.out.println(sponsorDB.selectByName("Nike").getName());
+////
 //        StadiumDatabase stadiumDB = new StadiumDatabase();
 //        stadiumDB.createStadiumTable();
 //        stadiumDB.insertAllStadiums(StadiumService.getListOfStadiums());
-//        stadiumDB.selectAllStadiums().stream().map(p->p.getName()).forEach(System.out::println);
-//        if(stadiumDB.selectByName("Santiago Bernabeu") != null)
-//            System.out.println(stadiumDB.selectByName("Santiago Bernabeu").getHomeTeam());
-
+////        stadiumDB.selectAllStadiums().stream().map(p->p.getName()).forEach(System.out::println);
+////        if(stadiumDB.selectByName("Santiago Bernabeu") != null)
+////            System.out.println(stadiumDB.selectByName("Santiago Bernabeu").getHomeTeam());
+//
 //        FootballClubDatabase footballClubDB = new FootballClubDatabase();
 //        footballClubDB.createFootballClubTable();
 //        footballClubDB.insertAllFootballClubs(FootballClubService.getListOfFootballClubs());
-//        footballClubDB.selectAllFootballClubs().stream().map(p->p.getName()).forEach(System.out::println);
-//        if(footballClubDB.selectByClubName("Real Madrid") != null)
-//            System.out.println(footballClubDB.selectByClubName("Real Madrid").getName());
-
+////        footballClubDB.selectAllFootballClubs().stream().map(p->p.getName()).forEach(System.out::println);
+////        if(footballClubDB.selectByClubName("Real Madrid") != null)
+////            System.out.println(footballClubDB.selectByClubName("Real Madrid").getName());
+//
+//        FootballMatchDatabase footballMatchDB = new FootballMatchDatabase();
+//        footballMatchDB.createFootballMatchTable();
+//        footballMatchDB.insertAllFootballMatches(FootballLeagueService.getListOfMatches());
     }
 }

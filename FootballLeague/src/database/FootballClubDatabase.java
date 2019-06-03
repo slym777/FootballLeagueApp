@@ -109,7 +109,7 @@ public class FootballClubDatabase {
         System.out.println("Executed Insert All Football Clubs");
     }
 
-    public List<FootballClub> selectAllFootballClubs(){
+    public static List<FootballClub> selectAllFootballClubs(){
         Connection connection = null;
         PreparedStatement statement = null;
         List<FootballClub> footballClubs = new ArrayList<>();

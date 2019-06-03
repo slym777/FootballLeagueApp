@@ -54,7 +54,7 @@ public class PlayerDatabase {
         }
     }
 
-    public void insertPlayer(Player player){
+    public static void insertPlayer(Player player){
         Connection connection = null;
         PreparedStatement statement = null;
         String request = "insert into player(first_name, last_name, birth_date, height, weight, position, number, footballclub, foot)"
@@ -103,7 +103,7 @@ public class PlayerDatabase {
             insertPlayer(player);
     }
 
-    public List<Player> selectAllPlayers(){
+    public static List<Player> selectAllPlayers(){
         Connection connection = null;
         PreparedStatement statement = null;
         List<Player> players = new ArrayList<>();
@@ -198,7 +198,7 @@ public class PlayerDatabase {
         }
     }
 
-    public void deletePlayer(String lastName){
+    public static void deletePlayer(String lastName){
         Connection connection = null;
         PreparedStatement statement = null;
 

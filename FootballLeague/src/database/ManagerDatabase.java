@@ -49,7 +49,7 @@ public class ManagerDatabase {
             }
         }
     }
-public void insertManager(Manager manager){
+public static void insertManager(Manager manager){
     Connection connection = null;
     PreparedStatement statement = null;
         String request = "insert into manager(first_name, last_name, birth_date, height, weight, footballclub)"
@@ -95,7 +95,7 @@ public void insertManager(Manager manager){
             insertManager(manager);
     }
 
-    public List<Manager> selectAllManagers(){
+    public static List<Manager> selectAllManagers(){
         Connection connection = null;
         PreparedStatement statement = null;
         List<Manager> managers = new ArrayList<>();
@@ -184,7 +184,7 @@ public void insertManager(Manager manager){
         }
     }
 
-    public void delete(String lastName){
+    public static void delete(String lastName){
         Connection connection = null;
         PreparedStatement statement = null;
 

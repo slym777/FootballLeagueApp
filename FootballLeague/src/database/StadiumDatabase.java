@@ -101,7 +101,7 @@ public class StadiumDatabase {
         System.out.println("Executed Insert All Stadiums");
     }
 
-    public List<Stadium> selectAllStadiums(){
+    public static List<Stadium> selectAllStadiums(){
         Connection connection = null;
         PreparedStatement statement = null;
         List<Stadium> stadiums = new ArrayList<>();

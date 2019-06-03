@@ -1,8 +1,13 @@
 package services;
 
+import database.ManagerDatabase;
+import database.PlayerDatabase;
+import database.RefereeDatabase;
+import database.SponsorDatabase;
 import persons.Manager;
 import persons.Player;
 import persons.Referee;
+import sponsors.Sponsor;
 
 import java.io.IOException;
 import java.time.LocalDate;
@@ -13,9 +18,9 @@ import java.util.Scanner;
 
 public class PersonsService {
 
-    private static ArrayList<Player> listOfPlayers = new ArrayList<>();
-    private static ArrayList<Referee> listOfReferees = new ArrayList<>();
-    private static ArrayList<Manager> listOfManagers = new ArrayList<>();
+    private static List<Player> listOfPlayers = new ArrayList<>();
+    private static List<Referee> listOfReferees = new ArrayList<>();
+    private static List<Manager> listOfManagers = new ArrayList<>();
 
     private static PersonsService instance = new PersonsService();
 
@@ -27,6 +32,10 @@ public class PersonsService {
     }
 
     static {
+        readPersonsDataFromDatabase();
+    }
+
+    public static void readPersonsDataFromCSV(){
         try {
             List<List<String>> data;
             data = ServiceCSV.getInstance().ReadFromCSV("C:\\Users\\sl1m\\Desktop\\PAO\\Laboratoare\\PAO_Project\\src\\filesCSV\\PlayersCSV.csv");
@@ -91,6 +100,11 @@ public class PersonsService {
         }
     }
 
+    public static void readPersonsDataFromDatabase(){
+        listOfPlayers = PlayerDatabase.selectAllPlayers();
+        listOfReferees = RefereeDatabase.selectAllReferees();
+        listOfManagers = ManagerDatabase.selectAllManagers();
+    }
 
     public static List<Player> getListOfPlayers(){
         return listOfPlayers;
@@ -170,4 +184,25 @@ public class PersonsService {
                 listOfReferees.remove(referee);
         }
     }
+
+//    public static String[] getRefereeNames(){
+//        String[] names = new String[listOfReferees.size()];
+//        for (int i = 0; i < listOfReferees.size(); i++)
+//            names[i] = listOfReferees.get(i).getLastName() + " " + listOfReferees.get(i).getFirstName();
+//        return names;
+//    }
+//
+//    public static String[] getPlayersNames() {
+//        String[] names = new String[listOfPlayers.size()];
+//        for (int i = 0; i < listOfPlayers.size(); i++)
+//            names[i] = listOfPlayers.get(i).getLastName() + " " + listOfPlayers.get(i).getFirstName();
+//        return names;
+//    }
+//
+//    public static String[] getManagersNames() {
+//        String[] names = new String[listOfManagers.size()];
+//        for (int i = 0; i < listOfManagers.size(); i++)
+//            names[i] = listOfManagers.get(i).getLastName() + " " + listOfManagers.get(i).getFirstName();
+//        return names;
+//    }
 }

@@ -109,7 +109,7 @@ public class FootballMatchDatabase {
         System.out.println("Executed Insert All Football Matches");
     }
 
-    public List<Match> selectAllFootballMatches(){
+    public static List<Match> selectAllFootballMatches(){
         Connection connection = null;
         PreparedStatement statement = null;
         List<Match> footballMatches = new ArrayList<>();

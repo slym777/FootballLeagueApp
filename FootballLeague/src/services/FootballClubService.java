@@ -1,5 +1,8 @@
 package services;
 
+import database.FootballClubDatabase;
+import database.FootballMatchDatabase;
+import database.SponsorDatabase;
 import sponsors.Sponsor;
 import sportComplexes.Stadium;
 import model.FootballClub;
@@ -13,14 +16,22 @@ import java.util.Arrays;
 import java.util.List;
 
 public class FootballClubService {
-    private static ArrayList<FootballClub> listOfFootballClubs = new ArrayList<>();
+    private static List<FootballClub> listOfFootballClubs = new ArrayList<>();
 
     private static FootballClubService instance = new FootballClubService();
 
     private FootballClubService() {
     }
 
+    public static FootballClubService getInstance(){
+        return instance;
+    }
+
     static {
+        readFootballClubsDataFromDatabase();
+    }
+
+    public static void readFootballClubsDataFromCSV(){
         try {
             List<List<String>> data;
             data = ServiceCSV.getInstance().ReadFromCSV("C:\\Users\\sl1m\\Desktop\\PAO\\Laboratoare\\PAO_Project\\src\\filesCSV\\FootballClubsCSV.csv");
@@ -58,7 +69,6 @@ public class FootballClubService {
 //                int nrMatches = Integer.parseInt(info.get(12));
 
                 List<Player> players = new ArrayList<>();
-                ;
                 for (Player player : PersonsService.getListOfPlayers()) {
                     if (player.getFootballClub().equals(name)) {
                         players.add(player);
@@ -74,13 +84,11 @@ public class FootballClubService {
         }
     }
 
-
-
-    public static FootballClubService getInstance(){
-        return instance;
+    public static void readFootballClubsDataFromDatabase(){
+        listOfFootballClubs = FootballClubDatabase.selectAllFootballClubs();
     }
 
-    public static ArrayList<FootballClub> getListOfFootballClubs(){
+    public static List<FootballClub> getListOfFootballClubs(){
         return listOfFootballClubs;
     }
 

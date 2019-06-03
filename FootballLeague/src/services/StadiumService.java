@@ -1,5 +1,6 @@
 package services;
 
+import database.StadiumDatabase;
 import sportComplexes.Stadium;
 
 import java.io.IOException;
@@ -9,7 +10,7 @@ import java.util.Arrays;
 import java.util.List;
 
 public class StadiumService {
-    private static ArrayList<Stadium> listOfStadiums = new ArrayList<>();
+    private static List<Stadium> listOfStadiums = new ArrayList<>();
 
     private static StadiumService instance = new StadiumService();
 
@@ -21,6 +22,10 @@ public class StadiumService {
     }
 
     static {
+        readStadiumsDataFromDatabase();
+    }
+
+    public static void readStadiumsDataFromCSV(){
         try {
             List<List<String>> data;
             data = ServiceCSV.getInstance().ReadFromCSV("C:\\Users\\sl1m\\Desktop\\PAO\\Laboratoare\\PAO_Project\\src\\filesCSV\\StadiumsCSV.csv");
@@ -43,9 +48,11 @@ public class StadiumService {
         }
     }
 
+    public static void readStadiumsDataFromDatabase(){
+        listOfStadiums = StadiumDatabase.selectAllStadiums();
+    }
 
-
-    public static ArrayList<Stadium> getListOfStadiums(){
+    public static List<Stadium> getListOfStadiums(){
         return listOfStadiums;
     }
 

@@ -1,6 +1,9 @@
 package services;
 
+import database.SponsorDatabase;
+import database.StadiumDatabase;
 import sponsors.Sponsor;
+import sportComplexes.Stadium;
 
 import java.io.IOException;
 import java.time.LocalDate;
@@ -9,7 +12,7 @@ import java.util.Arrays;
 import java.util.List;
 
 public class SponsorsService {
-    private static ArrayList<Sponsor> listOfSponsors = new ArrayList<>();
+    private static List<Sponsor> listOfSponsors = new ArrayList<>();
 
     private static SponsorsService instance = new SponsorsService();
 
@@ -21,6 +24,10 @@ public class SponsorsService {
     }
 
     static {
+        readSponsorsDataFromDatabase();
+    }
+
+    public static void readSponsorsDataFromCSV(){
         try {
             List<List<String>> data;
             data = ServiceCSV.getInstance().ReadFromCSV("C:\\Users\\sl1m\\Desktop\\PAO\\Laboratoare\\PAO_Project\\src\\filesCSV\\SponsorsCSV.csv");
@@ -38,8 +45,11 @@ public class SponsorsService {
         }
     }
 
+    public static void readSponsorsDataFromDatabase(){
+        listOfSponsors = SponsorDatabase.selectAllSponsors();
+    }
 
-    public static ArrayList<Sponsor> getListOfSponsors(){
+    public static List<Sponsor> getListOfSponsors(){
         return listOfSponsors;
     }
 

@@ -12,7 +12,7 @@ public interface LeaguePrototypeService {
 //    FootballClub findClub(String clubName);
 //    Stage findStage(int number);
 //    void findClubStatistics();
-    void displayLeagueTeable();
+//    void displayLeagueTeable();
 //    void getCurrentClubs();
 //    String getMostGoalsClub();
     String getLeagueLeader();
