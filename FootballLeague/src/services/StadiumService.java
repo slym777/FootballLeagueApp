@@ -23,6 +23,7 @@ public class StadiumService {
 
     static {
         readStadiumsDataFromDatabase();
+//        readStadiumsDataFromCSV();
     }
 
     public static void readStadiumsDataFromCSV(){
@@ -70,12 +71,10 @@ public class StadiumService {
         listOfStadiums.add(stadium);
     }
 
-    public static void deleteStadiumByName(String name){
-        for (Stadium stadium: listOfStadiums) {
+    public static void deleteStadiumByName(String name) {
+        for (Stadium stadium : listOfStadiums) {
             if (stadium.getName().equals(name))
                 listOfStadiums.remove(stadium);
         }
     }
-
-
 }

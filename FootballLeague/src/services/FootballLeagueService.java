@@ -32,6 +32,7 @@ public class FootballLeagueService implements LeaguePrototypeService{
 
     static {
         readFootballMatchesDataFromDatabase();
+//        readFootballMatchesDataFromCSV();
     }
 
     public static void readFootballMatchesDataFromCSV(){

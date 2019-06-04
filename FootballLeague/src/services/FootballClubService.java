@@ -28,6 +28,7 @@ public class FootballClubService {
     }
 
     static {
+//        readFootballClubsDataFromCSV();
         readFootballClubsDataFromDatabase();
     }
 

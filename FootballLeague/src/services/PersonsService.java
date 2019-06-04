@@ -33,6 +33,7 @@ public class PersonsService {
 
     static {
         readPersonsDataFromDatabase();
+//        readPersonsDataFromCSV();
     }
 
     public static void readPersonsDataFromCSV(){

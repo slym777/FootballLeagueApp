@@ -25,6 +25,7 @@ public class SponsorsService {
 
     static {
         readSponsorsDataFromDatabase();
+//        readSponsorsDataFromCSV();
     }
 
     public static void readSponsorsDataFromCSV(){

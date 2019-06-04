@@ -135,7 +135,7 @@ public class FootballMatchDatabase {
                 Optional<FootballClub> guestTemp = FootballClubService.getListOfFootballClubs().stream().filter(p->p.getName().equals(guest)).findFirst();
                 FootballClub guestTeam = guestTemp.get();
                 Optional<Referee> refereeTemp = PersonsService.getListOfReferees().stream().filter(p->p.getLastName().equals(matchReferee)).findFirst();
-                Referee referee = refereeTemp.get();
+                Referee referee = null;
 
                 footballMatches.add(new Match(stage, homeTeam, guestTeam, homeScore, guestScore, matchDate, referee));
             }

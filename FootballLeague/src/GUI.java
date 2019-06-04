@@ -56,19 +56,15 @@ public class GUI {
         jLabel2 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
         jLabel4 = new javax.swing.JLabel();
-        presidentName = new javax.swing.JLabel();
         jLabel6 = new javax.swing.JLabel();
-        VicePresidentName = new javax.swing.JLabel();
         modifyLeague = new javax.swing.JButton();
         loading = new javax.swing.JLabel();
         ScrollTeams = new javax.swing.JScrollPane();
         jLabel7 = new javax.swing.JLabel();
         ScrollManagers = new javax.swing.JScrollPane();
-        TeamMembersTable = new javax.swing.JTable();
         showTeam = new javax.swing.JButton();
         deletePlayer = new javax.swing.JButton();
         deleteManager = new javax.swing.JButton();
-        insertTeamBox = new javax.swing.JTextField();
         insertPerson = new javax.swing.JButton();
         deleteReferee = new javax.swing.JButton();
         insertScorBox = new javax.swing.JTextField();
@@ -78,15 +74,9 @@ public class GUI {
         jLabel10 = new javax.swing.JLabel();
         jPanel3 = new javax.swing.JPanel();
         ScrollPlayers = new javax.swing.JScrollPane();
-        scorTable = new javax.swing.JTable();
         jLabel1 = new javax.swing.JLabel();
         ScrollTable = new javax.swing.JScrollPane();
-        weekList = new javax.swing.JList();
-        removeScor = new javax.swing.JButton();
-        saveChangesScor = new javax.swing.JButton();
-        AddScor = new javax.swing.JButton();
         addWeek = new javax.swing.JButton();
-        warningLabel = new javax.swing.JLabel();
 
         jLabel2.setIcon(new ImageIcon("Premier_League_Logo.svg.png")); // NOI18N
         jLabel2.setText("jLabel2");
@@ -98,7 +88,7 @@ public class GUI {
         DefaultListModel clubsNames = new DefaultListModel();
         for (String name: FootballLeagueService.getClubsNames())
             clubsNames.addElement(name);
-        TeamList = new javax.swing.JList(clubsNames);
+        TeamList = new JList(clubsNames);
         TeamList.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(51, 0, 255)));
         TeamList.setSelectionMode(javax.swing.ListSelectionModel.SINGLE_SELECTION);
         TeamList.setToolTipText("Choose a Team");
@@ -374,7 +364,7 @@ public class GUI {
 
         DefaultListModel referees = new DefaultListModel();
         for (Referee refere: PersonsService.getListOfReferees())
-            referees.addElement(refere.getFirstName() + " " + refere.getLastName());
+            referees.addElement(refere.getLastName() + " " + refere.getFirstName());
         refereeList.setModel(referees);
 
     }
@@ -440,6 +430,7 @@ public class GUI {
             public void actionPerformed(ActionEvent e) {
                 String nume = numetxt.getText();
                 String prenume = prenumetxt.getText();
+                LocalDate birthdate = LocalDate.of(date.getDate().getYear(), date.getDate().getMonth(), date.getDate().getDay());
                 double weight = Double.parseDouble(weighttxt.getText());
                 double height = Double.parseDouble(heighttext.getText());
                 if(personType.getSelectedIndex() == 0){
@@ -494,19 +485,20 @@ public class GUI {
                             int number = Integer.parseInt(numbertxt.getText());
                             String club = clubtxt.getText();
                             String foot = foottxt.getText();
-                            Player player = new Player(nume, prenume, LocalDate.of(date.getDate().getYear(), date.getDate().getMonth(), date.getDate().getDay()), weight, height, position,number,club,foot);
+                            Player player = new Player(nume, prenume, birthdate, weight, height, position,number,club,foot);
                             PlayerDatabase.insertPlayer(player);
                             playerFrame.setVisible(false);
+                            updateData();
                         }
                     });
                     playerFrame.add(create2);
                     playerFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-                    playerFrame.setPreferredSize(new Dimension(250,250));
+                    playerFrame.setPreferredSize(new Dimension(300,300));
                     playerFrame.setVisible(true);
                     playerFrame.pack();
                 }
                 else if (personType.getSelectedIndex() == 1){
-                    String club = JOptionPane.showInputDialog("What club he is coaching ?");
+                    String club = JOptionPane.showInputDialog("What club is he coaching ?");
                     Manager manager = new Manager(nume, prenume, LocalDate.of(date.getDate().getYear(), date.getDate().getMonth(), date.getDate().getDay()), weight, height, club);
                     ManagerDatabase.insertManager(manager);
                     frameInsert.setVisible(false);
@@ -545,7 +537,6 @@ public class GUI {
     }
 
 
-    private javax.swing.JButton AddScor;
     private javax.swing.JList TeamList;
     private JTable LeagueTable;
     private JList playerList;
@@ -580,20 +571,10 @@ public class GUI {
     private javax.swing.JTabbedPane jTabbedPane1;
     private javax.swing.JLabel loading;
     private javax.swing.JButton modifyLeague;
-    private javax.swing.JLabel presidentName;
     private javax.swing.JButton deleteReferee;
-    private javax.swing.JButton removeScor;
     private javax.swing.JButton showTeam;
-    private javax.swing.JButton saveChangesScor;
     private javax.swing.JButton deletePlayer;
-    private javax.swing.JTable scorTable;
-    private javax.swing.JLabel warningLabel;
-    private javax.swing.JList weekList;
     private JButton b;
-
-    public static void main(String[] args){
-        GUI my = new GUI();
-    }
 
     class DigitalWatch implements Runnable{
         Thread t=null;
