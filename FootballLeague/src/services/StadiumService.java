@@ -29,7 +29,7 @@ public class StadiumService {
     public static void readStadiumsDataFromCSV(){
         try {
             List<List<String>> data;
-            data = ServiceCSV.getInstance().ReadFromCSV("C:\\Users\\sl1m\\Desktop\\PAO\\Laboratoare\\PAO_Project\\src\\filesCSV\\StadiumsCSV.csv");
+            data = ServiceCSV.getInstance().ReadFromCSV("C:\\Users\\sl1m\\Desktop\\FootballLeagueApp\\FootballLeague\\src\\filesCSV\\StadiumsCSV.csv");
             data.remove(0);
 
             for (List<String> info : data) {

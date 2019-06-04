@@ -35,7 +35,7 @@ public class FootballClubService {
     public static void readFootballClubsDataFromCSV(){
         try {
             List<List<String>> data;
-            data = ServiceCSV.getInstance().ReadFromCSV("C:\\Users\\sl1m\\Desktop\\PAO\\Laboratoare\\PAO_Project\\src\\filesCSV\\FootballClubsCSV.csv");
+            data = ServiceCSV.getInstance().ReadFromCSV("C:\\Users\\sl1m\\Desktop\\FootballLeagueApp\\FootballLeague\\src\\filesCSV\\FootballClubsCSV.csv");
             data.remove(0);
 
             for (List<String> info : data) {

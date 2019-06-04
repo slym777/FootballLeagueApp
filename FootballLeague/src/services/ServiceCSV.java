@@ -50,7 +50,7 @@ public class ServiceCSV {
     }
 
     public void createPlayersCSV() throws IOException {
-        String head = "First Name, Last Name, makeDate.makeDate of Birth, Height, Weight, Football CLub, Number, Postion, Foot";
+        String head = "First Name, Last Name, Date of Birth, Height, Weight, Football CLub, Number, Postion, Foot";
         List<String> header = Arrays.asList(head.split(","));
 
         List<List<String>> data = Arrays.asList(
@@ -59,7 +59,7 @@ public class ServiceCSV {
 //                Arrays.asList("Paulo", "Dibala", "13-02-1993"), "1,74
         );
 
-        WriteToCSV("C:\\Users\\sl1m\\Desktop\\PAO\\Laboratoare\\PAO_Project\\src\\filesCSV\\PlayersCSV.csv", data, header);
+        WriteToCSV("C:\\Users\\sl1m\\Desktop\\FootballLeagueApp\\FootballLeague\\src\\filesCSV\\PlayersCSV.csv", data, header);
     }
 
     public void createFootballCLubCSV() throws IOException {
@@ -81,7 +81,7 @@ public class ServiceCSV {
 
         );
 
-        WriteToCSV("C:\\Users\\sl1m\\Desktop\\PAO\\Laboratoare\\PAO_Project\\src\\filesCSV\\FootballClubsCSV.csv", data, header);
+        WriteToCSV("C:\\Users\\sl1m\\Desktop\\FootballLeagueApp\\FootballLeague\\src\\filesCSV\\FootballClubsCSV.csv", data, header);
 
     }
 
@@ -104,7 +104,7 @@ public class ServiceCSV {
 
         );
 
-        WriteToCSV("C:\\Users\\sl1m\\Desktop\\PAO\\Laboratoare\\PAO_Project\\src\\filesCSV\\StadiumsCSV.csv", data, header);
+        WriteToCSV("StadiumsCSV.csv", data, header);
 
     }
 
@@ -117,7 +117,7 @@ public class ServiceCSV {
                 Arrays.asList("Nike", "25-01-1964")
         );
 
-        WriteToCSV("C:\\Users\\sl1m\\Desktop\\PAO\\Laboratoare\\PAO_Project\\src\\filesCSV\\SponsorsCSV.csv", data, header);
+        WriteToCSV("C:\\Users\\sl1m\\Desktop\\FootballLeagueApp\\FootballLeague\\src\\filesCSV\\SponsorsCSV.csv", data, header);
 
     }
 
@@ -140,7 +140,7 @@ public class ServiceCSV {
 
             );
 
-        WriteToCSV("C:\\Users\\sl1m\\Desktop\\PAO\\Laboratoare\\PAO_Project\\src\\filesCSV\\ManagersCSV.csv", data, header);
+        WriteToCSV("C:\\Users\\sl1m\\Desktop\\FootballLeagueApp\\FootballLeague\\src\\filesCSV\\ManagersCSV.csv", data, header);
     }
 
     public void createRefereesCSV() throws IOException {
@@ -152,7 +152,7 @@ public class ServiceCSV {
                 Arrays.asList("Martin", "Atkinson", "24-06-1957", "1.7", "78", "Premier League")
         );
 
-        WriteToCSV("C:\\Users\\sl1m\\Desktop\\PAO\\Laboratoare\\PAO_Project\\src\\filesCSV\\RefereesCSV.csv", data, header);
+        WriteToCSV("C:\\Users\\sl1m\\Desktop\\FootballLeagueApp\\FootballLeague\\src\\filesCSV\\RefereesCSV.csv", data, header);
     }
 
     public void createMatchesCSV() throws IOException {
@@ -180,7 +180,7 @@ public class ServiceCSV {
 
         );
 
-        WriteToCSV("C:\\Users\\sl1m\\Desktop\\PAO\\Laboratoare\\PAO_Project\\src\\filesCSV\\MatchesCSV.csv", data, header);
+        WriteToCSV("C:\\Users\\sl1m\\Desktop\\FootballLeagueApp\\FootballLeague\\src\\filesCSV\\MatchesCSV.csv", data, header);
     }
 
 

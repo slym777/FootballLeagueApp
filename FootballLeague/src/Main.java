@@ -40,15 +40,15 @@ public class Main {
             logger.info("Premiere FootbalLeague app started");
 //            logger.info("Create all CSV Files");
 //            #### Create CSV Files ###
-//            ServiceCSV servicecsv = ServiceCSV.getInstance();
-//            servicecsv.createFootballCLubCSV();
-//            servicecsv.createPlayersCSV();
-//            servicecsv.createSponsorsCSV();
-//            servicecsv.createStadiumsCSV();
-//            servicecsv.createManagersCSV();
-//            servicecsv.createRefereesCSV();
-//            servicecsv.createMatchesCSV();
-////
+            ServiceCSV servicecsv = ServiceCSV.getInstance();
+            servicecsv.createFootballCLubCSV();
+            servicecsv.createPlayersCSV();
+            servicecsv.createSponsorsCSV();
+            servicecsv.createStadiumsCSV();
+            servicecsv.createManagersCSV();
+            servicecsv.createRefereesCSV();
+            servicecsv.createMatchesCSV();
+//
 ////             ########################
 //
 //            logger.info("Activating services");

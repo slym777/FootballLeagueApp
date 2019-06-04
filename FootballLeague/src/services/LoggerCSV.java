@@ -24,7 +24,7 @@ public class LoggerCSV {
         Logger logger = Logger.getLogger("Premier FootbalLeague");
 
         try {
-            FileHandler handler = new FileHandler("C:\\Users\\sl1m\\Desktop\\PAO\\Laboratoare\\PAO_Project\\src\\filesCSV\\logger.csv", true);
+            FileHandler handler = new FileHandler("C:\\Users\\sl1m\\Desktop\\FootballLeagueApp\\FootballLeague\\src\\filesCSV\\logger.csv", true);
             handler.setFormatter(LoggerCSV.CSVFormatter);
             logger.addHandler(handler);
             logger.setUseParentHandlers(false);
